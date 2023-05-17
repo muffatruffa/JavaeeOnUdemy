@@ -11,6 +11,9 @@ This is what you need.
  - add jdbc drivers to payara server (google on how there are easy to follow tutorial)
  - jdbc Drivers used mysql-connector-j-8.0.32
  
- I did not wanted to use NeatBeans and Derby ad data base (that is used by the teacher) so I had to adapt the code, it cost me some time but in the end it was rewarding.
+ It may not work to run the application from eclipse but it works using:
+  - `mvn clean package`
+  - And then deploy using payara CLI tool `./asadmin deploy your war file` 
+
  
 
